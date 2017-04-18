@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nefersky.notificationapp.SecondActivity">
+
+    <Button
+        android:id="@+id/btnBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBasic"
+        android:text="@string/btnBasicCaption" />
+
+    <Button
+        android:id="@+id/btnBigText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBigText"
+        android:text="@string/btnBigTextCaption" />
+
+    <Button
+        android:id="@+id/btnBigPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBigPicture"
+        android:text="@string/btnBigPicture" />
+
+    <Button
+        android:id="@+id/btnInboxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickInboxStyle"
+        android:text="@string/btnInboxStyle" />
+</LinearLayout>

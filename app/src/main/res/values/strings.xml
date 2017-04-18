@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotificationApp</string>
+    <string name="btnNotifyCaption">notify</string>
+    <string name="btnCancelCaption">Cancel</string>
+    <string name="btnSecondActivityCaption">SecondActivity</string>
+    <string name="btnBasicCaption">Basic</string>
+    <string name="btnBigTextCaption">Big Text</string>
+    <string name="btnBigPicture">Big picture</string>
+    <string name="btnInboxStyle">Inbox Style</string>
+</resources>
